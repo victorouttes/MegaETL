@@ -13,7 +13,7 @@ setup(
         'megaetl.operators',
         'megaetl.util',
     ],
-    version='0.0.1',
+    version='0.0.2',
     license='MIT',
     description='Airflow plugins',
     long_description=long_description,
@@ -21,13 +21,14 @@ setup(
     author='Victor Outtes',
     author_email='victor.outtes@gmail.com',
     url='https://github.com/victorouttes/MegaETL',
-    download_url='https://github.com/victorouttes/MegaETL/archive/refs/tags/0.0.1.tar.gz',
+    download_url='https://github.com/victorouttes/MegaETL/archive/refs/tags/0.0.2.tar.gz',
     keywords=['airflow', 'plugins'],
     install_requires=[
         'apache-airflow==1.10.15',
         'Cython~=0.29.23',
         'pandas~=1.2.4',
         'pyrfc~=2.4.1',
+        'sap-rfc-data-collector>=0.2'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
